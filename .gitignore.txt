@@ -1,0 +1,22 @@
+# Python
+__pycache__
+.pyc
+.pyo
+
+# Virtual env
+.venv
+env
+
+# Environment variables
+.env
+
+# VS Code
+.vscode
+
+# FAISS index (optional)
+.faiss
+.pkl
+
+# OS
+.DS_Store
+Thumbs.db
