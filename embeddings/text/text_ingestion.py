@@ -5,7 +5,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-def load__and_chunk(pdf_path):
+def load_and_chunk(pdf_path):
     text=""
 
     #---------------Better Extraction------------------------------

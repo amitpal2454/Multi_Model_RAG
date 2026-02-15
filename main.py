@@ -64,3 +64,12 @@ print("\nFinal Answer:")
 print("=" * 50)
 print(answer)
 print("=" * 50)
+
+
+from retrievers.table_retriever import TableRetriever
+
+table_retriever = TableRetriever()
+table_retriever.load_table("data/tables/sample_table_csv.csv")
+table_retriever.build_index()
+
+results = table_retriever.retrieve("What was yield in 2022?")
