@@ -1,9 +1,3 @@
-Below is an **enterprise-grade `README.md`** — structured, professional, architecture-driven, and aligned with senior ML / GenAI / MLOps expectations.
-
-You can replace your current `README.md` with this.
-
----
-
 # 🧠 Multimodal RAG Platform
 
 ### Local-First, Open-Source, Enterprise-Ready Retrieval-Augmented Generation System
